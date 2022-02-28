@@ -37,6 +37,9 @@ dependencies {
     //implementation(CaptainFlint.core)
     //implementation(CaptainFlint.signaturePad)
     //implementation(CaptainFlint.stepper)
+    //jimbo-42:PantallaEvaluaciones
+    //Feature-Jimbo41
+    //Feature-Jimbo-41
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
