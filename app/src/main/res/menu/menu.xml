@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icInicio"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="Inicio"
+        />
+    <item
+        android:id="@+id/icEvaluaciones"
+        android:icon="@drawable/ic_outline_insert_drive_file_24"
+        android:title="Evaluaciones"
+        />
+    <item
+        android:id="@+id/icSeguimiento"
+        android:icon="@drawable/ic_outline_local_shipping_24"
+        android:title="Seguimiento"
+        />
+
+    <item
+        android:id="@+id/icContactos"
+        android:icon="@drawable/ic_outline_people_outline_24"
+        android:title="Contactos"
+        />
+    <item
+        android:id="@+id/icPerfil"
+        android:icon="@drawable/ic_outline_person_24"
+        android:title="Perfil"
+        />
+
+
+
+
+
+
+</menu>
