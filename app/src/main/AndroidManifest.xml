@@ -10,17 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jimbo">
         <activity
+            android:name=".ui.activitys.EvaluationFeedback"
+            android:exported="false" />
+        <activity
             android:name=".ExampleActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ui.view.splash.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.App.Starting">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
