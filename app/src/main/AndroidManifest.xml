@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jimbo">
         <activity
-            android:name=".ui.activitys.EvaluationFeedback"
+            android:name=".ui.activitys.SignActivity"
+            android:screenOrientation="sensorLandscape"
             android:exported="false" />
         <activity
             android:name=".ExampleActivity"
