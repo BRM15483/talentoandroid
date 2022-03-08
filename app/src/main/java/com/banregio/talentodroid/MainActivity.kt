@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.banregio.talentodroid.databinding.ActivityMainBinding
 import com.banregio.talentodroid.ui.fragments.EvaluacionesFragment
+import com.banregio.talentodroid.ui.fragments.EvaluadorFragment
 import com.banregio.talentodroid.ui.fragments.InicioFragment
 import com.banregio.talentodroid.ui.fragments.PerfilFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private val perfilFragment: Fragment = PerfilFragment()
     private val inicioFragment: Fragment = InicioFragment()
     private val evaluacionesFragment: Fragment = EvaluacionesFragment()
+    private val evaluadorFragment : Fragment = EvaluadorFragment()
     lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,10 +38,10 @@ class MainActivity : AppCompatActivity() {
                 //  remplaceFragment(perfilFragment)
                 //  true
                 //}
-                //R.id.icContactos  -> {
-                //   remplaceFragment(perfilFragment)
-                //   true
-                // }
+                R.id.icContactos  -> {
+                   remplaceFragment(evaluadorFragment)
+                   true
+                }
                 R.id.icPerfil -> {
                     remplaceFragment(perfilFragment)
                     true
