@@ -9,13 +9,16 @@ import com.banregio.talentodroid.ui.fragments.EvaluadorFragment
 import com.banregio.talentodroid.ui.fragments.InicioFragment
 import com.banregio.talentodroid.ui.fragments.PerfilFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.banregio.talentodroid.ui.notifications.NotificationsFragment
+import com.banregio.talentodroid.ui.test.TestsFragment
 
 class MainActivity : AppCompatActivity() {
 
     private val perfilFragment: Fragment = PerfilFragment()
     private val inicioFragment: Fragment = InicioFragment()
-    private val evaluacionesFragment: Fragment = EvaluacionesFragment()
     private val evaluadorFragment : Fragment = EvaluadorFragment()
+    private val notificationFragment: Fragment = NotificationsFragment()
+    private val testsFragment: Fragment = TestsFragment()
     lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,14 +33,14 @@ class MainActivity : AppCompatActivity() {
                   remplaceFragment(inicioFragment)
                   true
                 }
-                R.id.icEvaluaciones  -> {
-                  remplaceFragment(evaluacionesFragment)
+                R.id.icNotification  -> {
+                  remplaceFragment(notificationFragment)
                   true
                 }
-                //R.id.icSeguimiento  -> {
-                //  remplaceFragment(perfilFragment)
-                //  true
-                //}
+                R.id.icEvaluacion  -> {
+                  remplaceFragment(testsFragment)
+                  true
+                }
                 R.id.icContactos  -> {
                    remplaceFragment(evaluadorFragment)
                    true

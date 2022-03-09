@@ -6,8 +6,13 @@
         android:title="Inicio"
         />
     <item
-        android:id="@+id/icEvaluaciones"
-        android:icon="@drawable/ic_outline_insert_drive_file_24"
+        android:id="@+id/icNotification"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/notificaciones"
+        />
+    <item
+        android:id="@+id/icEvaluacion"
+        android:icon="@drawable/evaluacion"
         android:title="Evaluaciones"
         />
     <item
@@ -26,10 +31,5 @@
         android:icon="@drawable/ic_outline_person_24"
         android:title="Perfil"
         />
-
-
-
-
-
 
 </menu>
