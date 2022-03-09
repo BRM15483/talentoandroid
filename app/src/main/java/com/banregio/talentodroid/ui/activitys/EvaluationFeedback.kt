@@ -3,6 +3,7 @@ package com.banregio.talentodroid.ui.activitys
 import android.animation.ValueAnimator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.content.Intent
 import com.banregio.talentodroid.databinding.ActivityEvaluationFeedbackBinding
 import com.banregio.talentodroid.viewmodels.EvaluationViewModel
 import androidx.activity.viewModels
