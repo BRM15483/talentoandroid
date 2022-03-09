@@ -13,6 +13,8 @@
             android:name=".ui.activitys.SignActivity"
             android:screenOrientation="sensorLandscape"
             android:exported="false" />
+        <activity android:name=".ui.activitys.EvaluationFeedback"
+            android:exported="false"/>
         <activity
             android:name=".ExampleActivity"
             android:exported="false" />
