@@ -4,6 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lbl_email_evaluator">Correo:</string>
     <string name="lbl_number_evalator">Numero:</string>
+    <string name="lbl_sing_btn">Firmar </string>
     <string name="lbl_calification_evaluaitem">Califica tu experiencia</string>
     <string name="lbl_empty_evaluator"/>
 </resources>
