@@ -22,8 +22,7 @@ class EvaluationFeedback : AppCompatActivity() {
 
     private fun initAndConf(){
         binding.btnEvaluationSing.setOnClickListener{
-            //queda pendiente cambiar cuando se haga el merge
-            //startActivity(Intent(applicationContext, SignEvaluation::class.java))
+            startActivity(Intent(applicationContext, SignActivity::class.java))
         }
         binding.rtbCalificationCandidate.setOnRatingBarChangeListener { _, rating, _ ->
             evaluationViewModel.setRating(rating.toInt())
